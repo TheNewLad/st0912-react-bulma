@@ -1,0 +1,10 @@
+@import "bulma/sass/utilities/initial-variables";
+@import "bulma/sass/utilities/functions";
+
+$gold: #ffde26;
+$gold-invert: findColorInvert($gold);
+
+$primary: $gold;
+$primary-invert: $gold-invert;
+
+@import "bulma/bulma";
