@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import GoogleMap from './GoogleMap/GoogleMap';
 
 class App extends Component {
   render() {
@@ -53,6 +54,7 @@ class App extends Component {
           <div className="hero-foot" />
         </section>
         
+                <GoogleMap />
       </div>
     );
   }
