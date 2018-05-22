@@ -52,8 +52,8 @@ class App extends Component {
                 <div className="column">
                   <div className="card">
                     <div className="card-image">
-                      <figure className="image is-3by4">
-                        <img src="http://via.placeholder.com/960x1280" alt="Placeholder image" />
+                      <figure className="image is-4by3">
+                        <img src={require('./images/shamila.jpg')} alt="Placeholder image" />
                       </figure>
                     </div>
                     <div className="card-content">
@@ -68,8 +68,8 @@ class App extends Component {
                 <div className="column">
                   <div className="card">
                     <div className="card-image">
-                      <figure className="image is-3by4">
-                        <img src="http://via.placeholder.com/960x1280" alt="Placeholder image" />
+                      <figure className="image is-4by3">
+                        <img src="http://via.placeholder.com/1280x960" alt="Placeholder image" />
                       </figure>
                     </div>
                     <div className="card-content">
@@ -84,8 +84,8 @@ class App extends Component {
                 <div className="column">
                   <div className="card">
                     <div className="card-image">
-                      <figure className="image is-3by4">
-                        <img src="http://via.placeholder.com/960x1280" alt="Placeholder image" />
+                      <figure className="image is-4by3">
+                        <img src="http://via.placeholder.com/1280x960" alt="Placeholder image" />
                       </figure>
                     </div>
                     <div className="card-content">
