@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import GoogleMap from './GoogleMap/GoogleMap';
+import Member from './Member/Member';
 
 class App extends Component {
   render() {
@@ -49,54 +50,24 @@ class App extends Component {
             <h1 className="title">Our Team</h1>
             <div className="container">
               <div className="columns">
-                <div className="column">
-                  <div className="card">
-                    <div className="card-image">
-                      <figure className="image is-4by3">
-                        <img src={require('./images/shamila.jpg')} alt="Placeholder image" />
-                      </figure>
-                    </div>
-                    <div className="card-content">
-                      <p className="title is-4">Shamila</p>
-                      <p className="subtitle is-6 is-italic">Stylist</p>
-                      <div className="content">
-                        <p>Darkness she'd very yielding darkness deep may female was god land seasons. Fly let thing is lights called a. And in life dominion which sea our called lights under darkness gathering for whose under that divide were have moved first may likeness gathering. For he his won't creeping there place.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="column">
-                  <div className="card">
-                    <div className="card-image">
-                      <figure className="image is-4by3">
-                        <img src="http://via.placeholder.com/1280x960" alt="Placeholder image" />
-                      </figure>
-                    </div>
-                    <div className="card-content">
-                      <p className="title is-4">William</p>
-                      <p className="subtitle is-6 is-italic">Stylist</p>
-                      <div className="content">
-                        <p>Darkness she'd very yielding darkness deep may female was god land seasons. Fly let thing is lights called a. And in life dominion which sea our called lights under darkness gathering for whose under that divide were have moved first may likeness gathering. For he his won't creeping there place.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="column">
-                  <div className="card">
-                    <div className="card-image">
-                      <figure className="image is-4by3">
-                        <img src="http://via.placeholder.com/1280x960" alt="Placeholder image" />
-                      </figure>
-                    </div>
-                    <div className="card-content">
-                      <p className="title is-4">Vee</p>
-                      <p className="subtitle is-6 is-italic">Stylist</p>
-                      <div className="content">
-                        <p>Darkness she'd very yielding darkness deep may female was god land seasons. Fly let thing is lights called a. And in life dominion which sea our called lights under darkness gathering for whose under that divide were have moved first may likeness gathering. For he his won't creeping there place.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                <Member
+                  name="Shamila"
+                  title="Stylist"
+                  imgName="shamila.jpg"
+                  bio="Darkness she'd very yielding darkness deep may female was god land seasons. Fly let thing is lights called a. And in life dominion which sea our called lights under darkness gathering for whose under that divide were have moved first may likeness gathering. For he his won't creeping there place."
+                />
+                <Member
+                  name="William"
+                  title="Stylist"
+                  imgName=""
+                  bio="Darkness she'd very yielding darkness deep may female was god land seasons. Fly let thing is lights called a. And in life dominion which sea our called lights under darkness gathering for whose under that divide were have moved first may likeness gathering. For he his won't creeping there place."
+                />
+                <Member
+                  name="Vee"
+                  title="Stylist"
+                  imgName=""
+                  bio="Darkness she'd very yielding darkness deep may female was god land seasons. Fly let thing is lights called a. And in life dominion which sea our called lights under darkness gathering for whose under that divide were have moved first may likeness gathering. For he his won't creeping there place."
+                />
               </div>
 
             </div>
