@@ -28,7 +28,7 @@ class Member extends Component {
                     <p className="title is-4">{this.props.name}</p>
                     <p className="subtitle is-6 is-italic">{this.props.title}</p>
                     <div className="content">
-                        <p className="bio">{this.state.readMore ? this.props.children : voca.truncate(this.props.children, 200)}</p>
+                        {this.state.readMore ? this.props.children : voca.truncate(this.props.children, 200)}
                         <a className="" onClick={this.toggleBio}>{this.state.readMore ? 'Read Less' : 'Read More'}</a>
                     </div>
                 </div>
