@@ -17,7 +17,7 @@ class Member extends Component {
     
     render() {
        return (
-        <div className="column">
+        <div className="column"  data-aos="fade-up">
             <div className="card">
                 <div className="card-image">
                     <figure className="image is-4by3">

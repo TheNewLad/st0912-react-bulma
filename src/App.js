@@ -2,8 +2,14 @@ import React, { Component } from 'react';
 import './App.css';
 import GoogleMap from './GoogleMap/GoogleMap';
 import Member from './Member/Member';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 class App extends Component {
+  componentDidMount() {
+    AOS.init();
+  }
+
   render() {
     return (
       <div className="App">
