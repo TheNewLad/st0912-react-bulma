@@ -72,25 +72,18 @@ class App extends Component {
                   title="Stylist"
                   imgName="shamila.jpg"
                 >
-                  Shamila McEachin, affectiontely known as "Sha", is a native of Newark, New Jersey and has been a
-professional hair stylist for over 7 years. Shamila began her career at the age of 24 while working in a
-neighborhood salon, where she received hands on training and learned the basics of shampooing,
-styling, and proper hair treatment. Shamila quickly develped a passion for hair design, and decided to
-pursue professional training at Concord Beauty School in Bloomfield, New Jersey. Focusing on
-continued education, which is a must in hair industry, Shamila was also recently trained at the famous L
-'oreal Academy, Devachan in New York, also Vidal Sassoon Academy, Los Angeles, CA and New York. <br /><br />
-
-                  Shamila is an artist in every sense of the word, with true artistic vision and an impeccable attention to
-                  detail. Shamila specializes in precision cutting and total hair care, with an emphasis on creating wide-
-                  ranging hair styles, coloring, and extensions to match her clients needs and personalities. You will often
-                  hear Shamila counseling her clients on proper hair care. She also enjoys styling her customers for
-weddings and other special occasions. <br /><br />
-
-                  Shamila opened her own salon, Studio 0912 Tresses, in Montclair, New Jersey in March, 2013. She has
-a loyal following and works consistently to deliver high-quality services to her expanding clientele. <br /><br />
-
-                  So, if you're looking for that "one of a kind" haircut, or have been searching for a stylist who can bring out
-                  your inner beauty and personality through a unique hair style, you need to be sitting in Shamila's chair!
+                  <p>
+                    Shamila McEachin, affectiontely known as "Sha", is a native of Newark, New Jersey and has been a professional hair stylist for over 7 years. Shamila began her career at the age of 24 while working in a neighborhood salon, where she received hands on training and learned the basics of shampooing, styling, and proper hair treatment. Shamila quickly develped a passion for hair design, and decided to pursue professional training at Concord Beauty School in Bloomfield, New Jersey. Focusing on continued education, which is a must in hair industry, Shamila was also recently trained at the famous L 'oreal Academy, Devachan in New York, also Vidal Sassoon Academy, Los Angeles, CA and New York.
+                  </p>
+                  <p>
+                    Shamila is an artist in every sense of the word, with true artistic vision and an impeccable attention to detail. Shamila specializes in precision cutting and total hair care, with an emphasis on creating wide- ranging hair styles, coloring, and extensions to match her clients needs and personalities. You will often hear Shamila counseling her clients on proper hair care. She also enjoys styling her customers for weddings and other special occasions.
+                  </p>
+                  <p>
+                    Shamila opened her own salon, Studio 0912 Tresses, in Montclair, New Jersey in March, 2013. She has a loyal following and works consistently to deliver high-quality services to her expanding clientele.
+                  </p>
+                  <p>
+                    So, if you're looking for that "one of a kind" haircut, or have been searching for a stylist who can bring out your inner beauty and personality through a unique hair style, you need to be sitting in Shamila's chair!
+                  </p>
                 </Member>
                 <Member
                   name="William"
