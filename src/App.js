@@ -33,6 +33,17 @@ class App extends Component {
                 <a href="#team" className="navbar-item">Team</a>
                 <a href="#services" className="navbar-item">Services</a>
                 <a href="#contact-us" className="navbar-item">Contact Us</a>
+                <div className="navbar-item">
+                  <span className="icon has-text-white">
+                    <i className="fab fa-facebook-f"></i>
+                  </span>
+                  <span className="icon has-text-">
+                    <i className="fab fa-instagram"></i>
+                  </span>
+                  <a className="icon has-text-info">
+                    <i className="fab fa-youtube"></i>
+                  </a>
+                </div>
               </div>
             </div>
           </nav>
@@ -60,20 +71,41 @@ class App extends Component {
                   name="Shamila"
                   title="Stylist"
                   imgName="shamila.jpg"
-                  bio="Darkness she'd very yielding darkness deep may female was god land seasons. Fly let thing is lights called a. And in life dominion which sea our called lights under darkness gathering for whose under that divide were have moved first may likeness gathering. For he his won't creeping there place."
-                />
+                >
+                  Shamila McEachin, affectiontely known as "Sha", is a native of Newark, New Jersey and has been a
+professional hair stylist for over 7 years. Shamila began her career at the age of 24 while working in a
+neighborhood salon, where she received hands on training and learned the basics of shampooing,
+styling, and proper hair treatment. Shamila quickly develped a passion for hair design, and decided to
+pursue professional training at Concord Beauty School in Bloomfield, New Jersey. Focusing on
+continued education, which is a must in hair industry, Shamila was also recently trained at the famous L
+'oreal Academy, Devachan in New York, also Vidal Sassoon Academy, Los Angeles, CA and New York. <br /><br />
+
+                  Shamila is an artist in every sense of the word, with true artistic vision and an impeccable attention to
+                  detail. Shamila specializes in precision cutting and total hair care, with an emphasis on creating wide-
+                  ranging hair styles, coloring, and extensions to match her clients needs and personalities. You will often
+                  hear Shamila counseling her clients on proper hair care. She also enjoys styling her customers for
+weddings and other special occasions. <br /><br />
+
+                  Shamila opened her own salon, Studio 0912 Tresses, in Montclair, New Jersey in March, 2013. She has
+a loyal following and works consistently to deliver high-quality services to her expanding clientele. <br /><br />
+
+                  So, if you're looking for that "one of a kind" haircut, or have been searching for a stylist who can bring out
+                  your inner beauty and personality through a unique hair style, you need to be sitting in Shamila's chair!
+                </Member>
                 <Member
                   name="William"
                   title="Stylist"
                   imgName=""
-                  bio="Darkness she'd very yielding darkness deep may female was god land seasons. Fly let thing is lights called a. And in life dominion which sea our called lights under darkness gathering for whose under that divide were have moved first may likeness gathering. For he his won't creeping there place."
-                />
+                >
+                  Darkness she'd very yielding darkness deep may female was god land seasons. Fly let thing is lights called a. And in life dominion which sea our called lights under darkness gathering for whose under that divide were have moved first may likeness gathering. For he his won't creeping there place.
+                </Member>
                 <Member
                   name="Vee"
                   title="Stylist"
                   imgName=""
-                  bio="Darkness she'd very yielding darkness deep may female was god land seasons. Fly let thing is lights called a. And in life dominion which sea our called lights under darkness gathering for whose under that divide were have moved first may likeness gathering. For he his won't creeping there place."
-                />
+                >
+                  Darkness she'd very yielding darkness deep may female was god land seasons. Fly let thing is lights called a. And in life dominion which sea our called lights under darkness gathering for whose under that divide were have moved first may likeness gathering. For he his won't creeping there place.
+                </Member>
               </div>
 
             </div>
