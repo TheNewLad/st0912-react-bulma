@@ -20,7 +20,7 @@ class Member extends Component {
         <div className="column"  data-aos="fade-up">
             <div className="card">
                 <div className="card-image">
-                    <figure className="image is-4by3">
+                    <figure className="image is-3by4">
                         <img src={this.props.imgName && require(`../images/members/${this.props.imgName}`)} alt="Placeholder" />
                     </figure>
                 </div>
@@ -28,7 +28,7 @@ class Member extends Component {
                     <p className="title is-4">{this.props.name}</p>
                     <p className="subtitle is-6 is-italic">{this.props.title}</p>
                     <div className="content">
-                        {this.state.readMore ? this.props.children : voca.truncate(this.props.children, 200)}
+                        {this.state.readMore ? this.props.children : voca.truncate(this.props.bioGist, 100)}
                         <a className="" onClick={this.toggleBio}>{this.state.readMore ? 'Read Less' : 'Read More'}</a>
                     </div>
                 </div>
