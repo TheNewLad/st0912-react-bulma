@@ -50,7 +50,7 @@ class App extends Component {
           </nav>
           {/*About*/}
           <section className="section" id="about">
-            <h1 className="title">About Us</h1>
+            <h1 className="title has-text-centered-mobile">About Us</h1>
             <div className="container">
               <div className="content">
 
@@ -123,9 +123,12 @@ class App extends Component {
             </div>
           </section>
           {/*Contact Us*/}
-          <section className="section" id="contact-us">
+          <section className="section has-text-centered-mobile" id="contact-us">
             <div className="container">
               <h1 className="title">Contact Us</h1>
+              <div className="columns">
+                <Hours />
+              </div>
             </div>
             {/*Hours*/}
             <div className="container" id="hours">
