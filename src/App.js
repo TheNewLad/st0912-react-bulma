@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import GoogleMap from './GoogleMap/GoogleMap';
 import Member from './Member/Member';
+import Hours from './Hours/Hours';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
