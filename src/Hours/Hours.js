@@ -62,7 +62,7 @@ class Hours extends Component {
         return (
             <div className="columns">
                 <div className="column is-one-third is-offset-1" data-aos="fade-down">
-                    <img className="hours-image" src={this.state.isOpen ? require('./images/salon-open.svg') : require('./images/salon-closed.svg')} alt="" />
+                    <img className="hours-image" src={this.state.isOpen ? require('../images/Hours/salon-open.svg') : require('../images/Hours/salon-closed.svg')} alt="" />
                     {this.state.isOpen && <p className="has-text-centered">Questions/Make an Appointment <br /> Give us a call: <a href="tel:+19736550125">(973) 655-0125</a></p>}
                 </div>
                 <div className="column is-one-third is-offset-2" data-aos="fade-up">

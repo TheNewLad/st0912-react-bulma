@@ -21,7 +21,7 @@ class Member extends Component {
                 <div className="card">
                     <div className="card-image">
                         <figure className="image is-3by4">
-                            <img src={this.props.imgName && require(`../images/members/${this.props.imgName}`)} alt="Placeholder" />
+                            <img src={this.props.imgName && require(`../images/Members/${this.props.imgName}`)} alt="Placeholder" />
                         </figure>
                     </div>
                     <div className="card-content">
