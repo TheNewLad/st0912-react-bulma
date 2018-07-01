@@ -5,33 +5,24 @@
     height: auto;
 }
 
-.Parallax {
-    /* Full height */
-    height: 100vh;
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  
-    &--1 {
-      /* The image used */
-      background-image: url('https://images.pexels.com/photos/794064/pexels-photo-794064.jpeg');
-    }
-  
-    &--2 {
-      /* The image used */
-      background-image: url('https://images.pexels.com/photos/1006202/pexels-photo-1006202.jpeg');
-    }
-    
-    &--3 {
-        /* The image used */
-        background-image: url('https://images.pexels.com/photos/532389/pexels-photo-532389.jpeg');
-      }
+.parallax {
+    height: 250px;
+}
 
-      &--4 {
-        /* The image used */
-        background-image: url('https://images.pexels.com/photos/818819/pexels-photo-818819.jpeg?w=940&h=650&auto=compress&cs=tinysrgb');
-      }
-  }
+@media (min-width: 640px) {
+    .parallax {
+        height: 300px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .parallax {
+        height: 500px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .parallax {
+        height: 800px;
+    }
+}
