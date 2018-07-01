@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import { Parallax } from 'react-parallax';
 import GoogleMap from './GoogleMap/GoogleMap';
 import Member from './Member/Member';
 import Hours from './Hours/Hours';
