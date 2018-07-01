@@ -8,9 +8,39 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 class App extends Component {
+  
+  constructor(props) {
+    super(props);
+    const picSize = () => {
+    if (window.innerWidth <= 640) {
+      return 'sm';
+    } else if (window.innerWidth <= 1280) {
+      return 'md';
+    } else {
+      return 'lg';
+    }
+  }
+    this.state = {pictureSize: picSize()}
+    this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
+  }
+  
   componentDidMount() {
     AOS.init();
+    window.addEventListener('resize', this.updateWindowDimensions);
   }
+
+  updateWindowDimensions() {
+    const width = window.innerWidth;
+    if (width <= 640) {
+      this.setState({pictureSize: 'sm'});
+    } else if (width <= 1280) {
+      this.setState({pictureSize: 'md'});
+    } else {
+      this.setState({pictureSize: 'lg'});
+    }
+  }
+
+
 
   render() {
     return (
