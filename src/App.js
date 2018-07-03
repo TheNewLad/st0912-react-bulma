@@ -4,26 +4,27 @@ import { Parallax } from 'react-parallax';
 import GoogleMap from './GoogleMap/GoogleMap';
 import Member from './Member/Member';
 import Hours from './Hours/Hours';
+import { Logos, Logo } from './Logos/Logos';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 class App extends Component {
-  
+
   constructor(props) {
     super(props);
     const picSize = () => {
-    if (window.innerWidth <= 640) {
-      return 'sm';
-    } else if (window.innerWidth <= 1280) {
-      return 'md';
-    } else {
-      return 'lg';
+      if (window.innerWidth <= 640) {
+        return 'sm';
+      } else if (window.innerWidth <= 1280) {
+        return 'md';
+      } else {
+        return 'lg';
+      }
     }
-  }
-    this.state = {pictureSize: picSize()}
+    this.state = { pictureSize: picSize() }
     this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
   }
-  
+
   componentDidMount() {
     AOS.init();
     window.addEventListener('resize', this.updateWindowDimensions);
@@ -32,11 +33,11 @@ class App extends Component {
   updateWindowDimensions() {
     const width = window.innerWidth;
     if (width <= 640) {
-      this.setState({pictureSize: 'sm'});
+      this.setState({ pictureSize: 'sm' });
     } else if (width <= 1280) {
-      this.setState({pictureSize: 'md'});
+      this.setState({ pictureSize: 'md' });
     } else {
-      this.setState({pictureSize: 'lg'});
+      this.setState({ pictureSize: 'lg' });
     }
   }
 
@@ -177,6 +178,49 @@ class App extends Component {
             {/*FAQs*/}
             <div className="container" id="faqs">
               <h2 className="subtitle">FAQs</h2>
+            </div>
+          </section>
+          <section className="section">
+            <div className="container">
+              <h1 className="title">Products We Use</h1>
+              <Logos>
+                <Logo
+                  logoName="avlon.svg"
+                  productLink="https://www.avlon.com/products/"
+                />
+                <Logo
+                  logoName="deva-curl.svg"
+                  productLink="https://www.devacurl.com/products.html"
+                />
+                <Logo
+                  logoName="goldwell-pro.svg"
+                  productLink="https://www.goldwell.us/products/"
+                />
+                <Logo
+                  logoName="jane-carter.svg"
+                  productLink="https://janecartersolution.com/collections/all-products"
+                />
+                <Logo
+                  logoName="loreal-pro.svg"
+                  productLink="http://us.lorealprofessionnel.com/hair-care"
+                />
+                <Logo
+                  logoName="milk-shake.svg"
+                  productLink="https://z-oneconceptusa.com/product-category/milk_shake/"
+                />
+                <Logo
+                  logoName="mizani.svg"
+                  productLink="http://www.mizani.com/products/category/haircare"
+                />
+                <Logo
+                  logoName="vs-sasson.svg"
+                  productLink="https://www.vssassoon.com.au/women"
+                />
+                <Logo
+                  logoName="wella-pro.svg"
+                  productLink="http://www.wella.com/professional/en-US/products/care/care-landing-page"
+                />
+              </Logos>
             </div>
           </section>
           {/* Footer Begin */}
