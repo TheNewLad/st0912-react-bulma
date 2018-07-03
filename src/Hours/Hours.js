@@ -50,7 +50,7 @@ class Hours extends Component {
     render() {
         const tableRows = days.map((day, index) => {
             return (
-                <tr className={now.getDay() === index ? 'is-selected' : ''}>
+                <tr key={index} className={now.getDay() === index ? 'is-selected' : ''}>
                     <td className="has-text-centered">{day}</td>
                     <td className="has-text-centered">
                         {hours[index].open ? `${hours[index].open}\u2014` : 'CLOSED'}
