@@ -66,13 +66,13 @@ class App extends Component {
                 <a href="#services" className="navbar-item">Services</a>
                 <a href="#contact-us" className="navbar-item">Contact Us</a>
                 <div className="navbar-item">
-                  <span className="icon has-text-white">
+                  <a href="https://www.facebook.com/studio0912tresses/" className="icon">
                     <i className="fab fa-facebook-square"></i>
-                  </span>
-                  <span className="icon">
+                  </a>
+                  <a href="https://www.instagram.com/organizedchaotichair" className="icon">
                     <i className="fab fa-instagram"></i>
-                  </span>
-                  <a className="icon has-text-info">
+                  </a>
+                  <a className="icon">
                     <i className="fab fa-youtube-square"></i>
                   </a>
                 </div>
