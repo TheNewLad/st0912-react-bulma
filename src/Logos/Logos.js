@@ -12,7 +12,7 @@ export const Logo = (props) => {
     return (
         <div className="logo column" data-aos="fade-down">
             <a href={props.productLink} target="_blank">
-                <img src={require(`../images/Logos/${props.logoName}`)} alt="" />
+                <img src={require(`./images/${props.logoName}`)} alt="" />
             </a>
         </div>
     );

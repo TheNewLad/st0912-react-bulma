@@ -97,7 +97,7 @@ class App extends Component {
           {/* <div className="Parallax Parallax--1 section" /> */}
           <Parallax
             blur={0}
-            bgImage={require(`./images/Parallax/794064-${this.state.pictureSize}.jpeg`)}
+            bgImage={require(`./Parallax/images/794064-${this.state.pictureSize}.jpeg`)}
             className="parallax"
           />
           {/*Team*/}
@@ -150,7 +150,7 @@ class App extends Component {
           </section>
           <Parallax
             blur={0}
-            bgImage={require(`./images/Parallax/1006202-${this.state.pictureSize}.jpeg`)}
+            bgImage={require(`./Parallax/images/1006202-${this.state.pictureSize}.jpeg`)}
             className="parallax"
           />
           {/*Services*/}
