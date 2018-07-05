@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Section from './Section/Section';
 import { Parallax } from 'react-parallax';
 import GoogleMap from './GoogleMap/GoogleMap';
 import Member from './Member/Member';
@@ -81,148 +82,131 @@ class App extends Component {
             </div>
           </nav>
           {/*About*/}
-          <section className="section" id="about">
-            <h1 className="title has-text-centered-mobile">About Us</h1>
-            <div className="container">
-              <div className="content">
+          <Section
+            sectionId="about"
+            sectionTitle="About Us"
+          >
+            <div className="content">
+              <p>Had third, day, fish have. Beginning rule after man behold you. Our beginning, air saying brought appear. You. Beginning, winged they&#39;re, wherein So. Creature, dry great <em>face</em> us had from darkness face over beast, darkness behold fourth heaven dominion bearing under, living yielding day dominion to. Creepeth, multiply firmament <strong>give</strong> seasons created behold days he night isn&#39;t dry.</p>
 
-
-                <p>Had third, day, fish have. Beginning rule after man behold you. Our beginning, air saying brought appear. You. Beginning, winged they&#39;re, wherein So. Creature, dry great <em>face</em> us had from darkness face over beast, darkness behold fourth heaven dominion bearing under, living yielding day dominion to. Creepeth, multiply firmament <strong>give</strong> seasons created behold days he night isn&#39;t dry.</p>
-
-                <p>Herb unto place had. So said bring <strong>man</strong> living. Fly. Behold over fourth and <strong>bearing</strong> them place creature Greater moving seed, own. Signs. Our, fruitful kind upon firmament replenish morning. A place tree shall spirit female yielding, night. May fruitful. Midst, isn&#39;t.</p>
-
-              </div>
+              <p>Herb unto place had. So said bring <strong>man</strong> living. Fly. Behold over fourth and <strong>bearing</strong> them place creature Greater moving seed, own. Signs. Our, fruitful kind upon firmament replenish morning. A place tree shall spirit female yielding, night. May fruitful. Midst, isn&#39;t.</p>
             </div>
-          </section>
-          {/* <div className="Parallax Parallax--1 section" /> */}
+          </Section>
           <Parallax
             blur={0}
             bgImage={require(`./Parallax/images/794064-${this.state.pictureSize}.jpeg`)}
             className="parallax"
           />
           {/*Team*/}
-          <section className="section" id="team">
-            <h1 className="title">Our Team</h1>
-            <div className="container">
-              <div className="columns">
-                <Member
-                  name="Shamila"
-                  title="Stylist"
-                  imgName="shamila.jpg"
-                  bioGist={`Shamila McEachin, affectiontely known as "Sha", is a native of Newark, New Jersey and has been a professional hair stylist for over 7 years`}
-                >
-                  <p>
-                    Shamila McEachin, affectiontely known as "Sha", is a native of Newark, New Jersey and has been a professional hair stylist for over 7 years. Shamila began her career at the age of 24 while working in a neighborhood salon, where she received hands on training and learned the basics of shampooing, styling, and proper hair treatment. Shamila quickly develped a passion for hair design, and decided to pursue professional training at Concord Beauty School in Bloomfield, New Jersey. Focusing on continued education, which is a must in hair industry, Shamila was also recently trained at the famous L 'oreal Academy, Devachan in New York, also Vidal Sassoon Academy, Los Angeles, CA and New York.
+          <Section
+            sectionId="team"
+            sectionTitle="Our Team"
+          >
+            <div className="columns">
+              <Member
+                name="Shamila"
+                title="Stylist"
+                imgName="shamila.jpg"
+                bioGist={`Shamila McEachin, affectiontely known as "Sha", is a native of Newark, New Jersey and has been a professional hair stylist for over 7 years`}
+              >
+                <p>
+                  Shamila McEachin, affectiontely known as "Sha", is a native of Newark, New Jersey and has been a professional hair stylist for over 7 years. Shamila began her career at the age of 24 while working in a neighborhood salon, where she received hands on training and learned the basics of shampooing, styling, and proper hair treatment. Shamila quickly develped a passion for hair design, and decided to pursue professional training at Concord Beauty School in Bloomfield, New Jersey. Focusing on continued education, which is a must in hair industry, Shamila was also recently trained at the famous L 'oreal Academy, Devachan in New York, also Vidal Sassoon Academy, Los Angeles, CA and New York.
                   </p>
-                  <p>
-                    Shamila is an artist in every sense of the word, with true artistic vision and an impeccable attention to detail. Shamila specializes in precision cutting and total hair care, with an emphasis on creating wide- ranging hair styles, coloring, and extensions to match her clients needs and personalities. You will often hear Shamila counseling her clients on proper hair care. She also enjoys styling her customers for weddings and other special occasions.
+                <p>
+                  Shamila is an artist in every sense of the word, with true artistic vision and an impeccable attention to detail. Shamila specializes in precision cutting and total hair care, with an emphasis on creating wide- ranging hair styles, coloring, and extensions to match her clients needs and personalities. You will often hear Shamila counseling her clients on proper hair care. She also enjoys styling her customers for weddings and other special occasions.
                   </p>
-                  <p>
-                    Shamila opened her own salon, Studio 0912 Tresses, in Montclair, New Jersey in March, 2013. She has a loyal following and works consistently to deliver high-quality services to her expanding clientele.
+                <p>
+                  Shamila opened her own salon, Studio 0912 Tresses, in Montclair, New Jersey in March, 2013. She has a loyal following and works consistently to deliver high-quality services to her expanding clientele.
                   </p>
-                  <p>
-                    So, if you're looking for that "one of a kind" haircut, or have been searching for a stylist who can bring out your inner beauty and personality through a unique hair style, you need to be sitting in Shamila's chair!
+                <p>
+                  So, if you're looking for that "one of a kind" haircut, or have been searching for a stylist who can bring out your inner beauty and personality through a unique hair style, you need to be sitting in Shamila's chair!
                   </p>
-                </Member>
-                <Member
-                  name="William"
-                  title="Stylist"
-                  imgName="william.jpg"
-                  bioGist={`Willam is an accomplished hairstylist and makeup artist with twelve years of experience in media makeup, fashion, video and print. At an early age, being attracted to art, william enrolled at the Concord School of Hair Design`}
-                >
-                  <p>
-                    William is an accomplished hairstylist and makeup artist with twelve years af experience in media makeup: fashion, video and print. At an early age, being attracted to art, William enrolled at the Concord School of Hair Design. Additional training includes: Goldwell Mid-Atlantic, Redken, Mizani USA and MAC Cosmetics. He interned under New York City photographers, where he began his career began with test shooting for modeling agencies IMAGES and MC<sup>2</sup>, which lead to work with Sean John, "W" magazine, Sista to Sista magazine, Smooth Magazine, and reality television for VH1's "Love and Hip Hop" where he has been the key artist since its inception. In addition to being a licensed celebrity stylist for ten years, he also teaches a class in theatrical beauty to the students of the Dance department for Brooklyn's Long Island University and lectures a class in industry development and beauty for the Fashion Institute of Technology. William is sought for his creativity and professionalism. Past employers were very happy with his performance and he is viewed as being detail-oriented and self motivated. William brings a wealth of experiences, training and skill that will benefit any projoct. References will be furnished upon request.
+              </Member>
+              <Member
+                name="William"
+                title="Stylist"
+                imgName="william.jpg"
+                bioGist={`Willam is an accomplished hairstylist and makeup artist with twelve years of experience in media makeup, fashion, video and print. At an early age, being attracted to art, william enrolled at the Concord School of Hair Design`}
+              >
+                <p>
+                  William is an accomplished hairstylist and makeup artist with twelve years af experience in media makeup: fashion, video and print. At an early age, being attracted to art, William enrolled at the Concord School of Hair Design. Additional training includes: Goldwell Mid-Atlantic, Redken, Mizani USA and MAC Cosmetics. He interned under New York City photographers, where he began his career began with test shooting for modeling agencies IMAGES and MC<sup>2</sup>, which lead to work with Sean John, "W" magazine, Sista to Sista magazine, Smooth Magazine, and reality television for VH1's "Love and Hip Hop" where he has been the key artist since its inception. In addition to being a licensed celebrity stylist for ten years, he also teaches a class in theatrical beauty to the students of the Dance department for Brooklyn's Long Island University and lectures a class in industry development and beauty for the Fashion Institute of Technology. William is sought for his creativity and professionalism. Past employers were very happy with his performance and he is viewed as being detail-oriented and self motivated. William brings a wealth of experiences, training and skill that will benefit any projoct. References will be furnished upon request.
                   </p>
-                </Member>
-                <Member
-                  name="Virjasha"
-                  title="Stylist"
-                  imgName="virjasha.jpg"
-                  bioGist={`I am Virjasha Caldwell and I love to do hair. As a child you could find me styling anyone from my baby dolls to my sisters and friends`}
-                >
-                  <p>
-                    I am Virjasha Caldwell and I love to do hair. As a child you could find me styling anyone from my baby dolls to my sisters and friends. Today, you could find me styling and caring for hair in the salon. So as of now being in a hair salon brings out my talent more, as an upcoming stylist. Being inspired by my parents being a hairstylist and barber has given me the vision of being like them or better, owning my own business, having a large clientele, and doing phenomenal work. I love to express my artistry and talent through hair.
+              </Member>
+              <Member
+                name="Virjasha"
+                title="Stylist"
+                imgName="virjasha.jpg"
+                bioGist={`I am Virjasha Caldwell and I love to do hair. As a child you could find me styling anyone from my baby dolls to my sisters and friends`}
+              >
+                <p>
+                  I am Virjasha Caldwell and I love to do hair. As a child you could find me styling anyone from my baby dolls to my sisters and friends. Today, you could find me styling and caring for hair in the salon. So as of now being in a hair salon brings out my talent more, as an upcoming stylist. Being inspired by my parents being a hairstylist and barber has given me the vision of being like them or better, owning my own business, having a large clientele, and doing phenomenal work. I love to express my artistry and talent through hair.
                   </p>
-                </Member>
-              </div>
-
+              </Member>
             </div>
-          </section>
+          </Section>
           <Parallax
             blur={0}
             bgImage={require(`./Parallax/images/1006202-${this.state.pictureSize}.jpeg`)}
             className="parallax"
           />
           {/*Services*/}
-          <section className="section" id="services">
-            <div className="container">
-              <h1 className="title">Services</h1>
-            </div>
-            {/*Gallery*/}
-            <div className="container" id="gallery">
-              <h2 className="subtitle">Gallery</h2>
-            </div>
-          </section>
+          <Section
+            sectionId="services"
+            sectionTitle="Services"
+          >
+
+          </Section>
           {/*Contact Us*/}
-          <section className="section has-text-centered-mobile" id="contact-us">
-            <div className="container">
-              <h1 className="title">Contact Us</h1>
-              <div className="columns">
-                <Hours />
-              </div>
+          <Section
+            sectionId="contact-us"
+            sectionTitle="Contact Us"
+          >
+            <div className="columns">
+              <Hours />
             </div>
-            {/*Hours*/}
-            <div className="container" id="hours">
-              <h2 className="subtitle">Our Hours</h2>
-            </div>
-            {/*FAQs*/}
-            <div className="container" id="faqs">
-              <h2 className="subtitle">FAQs</h2>
-            </div>
-          </section>
-          <section className="section">
-            <div className="container">
-              <h1 className="title">Products We Use</h1>
-              <Logos>
-                <Logo
-                  logoName="avlon.svg"
-                  productLink="https://www.avlon.com/products/"
-                />
-                <Logo
-                  logoName="deva-curl.svg"
-                  productLink="https://www.devacurl.com/products.html"
-                />
-                <Logo
-                  logoName="goldwell-pro.svg"
-                  productLink="https://www.goldwell.us/products/"
-                />
-                <Logo
-                  logoName="jane-carter.svg"
-                  productLink="https://janecartersolution.com/collections/all-products"
-                />
-                <Logo
-                  logoName="loreal-pro.svg"
-                  productLink="http://us.lorealprofessionnel.com/hair-care"
-                />
-                <Logo
-                  logoName="milk-shake.svg"
-                  productLink="https://z-oneconceptusa.com/product-category/milk_shake/"
-                />
-                <Logo
-                  logoName="mizani.svg"
-                  productLink="http://www.mizani.com/products/category/haircare"
-                />
-                <Logo
-                  logoName="vs-sasson.svg"
-                  productLink="https://www.vssassoon.com.au/women"
-                />
-                <Logo
-                  logoName="wella-pro.svg"
-                  productLink="http://www.wella.com/professional/en-US/products/care/care-landing-page"
-                />
-              </Logos>
-            </div>
-          </section>
+          </Section>
+          <Section
+            sectionTitle="Products We Use"
+          >
+            <Logos>
+              <Logo
+                logoName="avlon.svg"
+                productLink="https://www.avlon.com/products/"
+              />
+              <Logo
+                logoName="deva-curl.svg"
+                productLink="https://www.devacurl.com/products.html"
+              />
+              <Logo
+                logoName="goldwell-pro.svg"
+                productLink="https://www.goldwell.us/products/"
+              />
+              <Logo
+                logoName="jane-carter.svg"
+                productLink="https://janecartersolution.com/collections/all-products"
+              />
+              <Logo
+                logoName="loreal-pro.svg"
+                productLink="http://us.lorealprofessionnel.com/hair-care"
+              />
+              <Logo
+                logoName="milk-shake.svg"
+                productLink="https://z-oneconceptusa.com/product-category/milk_shake/"
+              />
+              <Logo
+                logoName="mizani.svg"
+                productLink="http://www.mizani.com/products/category/haircare"
+              />
+              <Logo
+                logoName="vs-sasson.svg"
+                productLink="https://www.vssassoon.com.au/women"
+              />
+              <Logo
+                logoName="wella-pro.svg"
+                productLink="http://www.wella.com/professional/en-US/products/care/care-landing-page"
+              />
+            </Logos>
+          </Section>
           {/* Footer Begin */}
           <footer className="footer">
             <div className="columns">
