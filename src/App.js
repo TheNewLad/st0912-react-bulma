@@ -187,20 +187,12 @@ class App extends Component {
                 productLink="https://janecartersolution.com/collections/all-products"
               />
               <Logo
-                logoName="loreal-pro.svg"
-                productLink="http://us.lorealprofessionnel.com/hair-care"
-              />
-              <Logo
                 logoName="milk-shake.svg"
                 productLink="https://z-oneconceptusa.com/product-category/milk_shake/"
               />
               <Logo
                 logoName="mizani.svg"
                 productLink="http://www.mizani.com/products/category/haircare"
-              />
-              <Logo
-                logoName="vs-sasson.svg"
-                productLink="https://www.vssassoon.com.au/women"
               />
               <Logo
                 logoName="wella-pro.svg"
