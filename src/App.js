@@ -7,6 +7,7 @@ import Hours from './Hours/Hours';
 import { Logos, Logo } from './Logos/Logos';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Reviews from './Reviews/Reviews';
 
 class App extends Component {
 
@@ -180,6 +181,7 @@ class App extends Component {
               <h2 className="subtitle">FAQs</h2>
             </div>
           </section>
+          <Reviews />
           <section className="section">
             <div className="container">
               <h1 className="title">Products We Use</h1>
