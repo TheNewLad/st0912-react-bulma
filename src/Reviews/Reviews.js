@@ -48,7 +48,7 @@ const Review = (props) => {
             </div>
           </div>
           <div className="content">
-            {props.review} <a href={props.reviewUrl}>Read Full Review</a>
+            {props.review} <a href={props.reviewUrl} target="_blank">Read Full Review</a>
             <br />
             <ReactStars
               count={5}

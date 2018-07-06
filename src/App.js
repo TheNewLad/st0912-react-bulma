@@ -166,6 +166,13 @@ class App extends Component {
               <Hours />
             </div>
           </Section>
+          {/* Testimonies */}
+          <Section
+            sectionId="testimonies"
+            sectionTitle="Testimonies"
+          >
+            <Reviews />
+          </Section>
           <Section
             sectionTitle="Products We Use"
           >
