@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
 import Section from './Section/Section';
-import { Parallax } from 'react-parallax';
 import GoogleMap from './GoogleMap/GoogleMap';
 import Member from './Member/Member';
 import Hours from './Hours/Hours';
@@ -54,7 +53,7 @@ class App extends Component {
             <div className="navbar-brand">
               <a href="" className="navbar-item">
                 {/*TODO replace with logo*/}
-                <h2 className="title is-2 has-text-warning">ST0912</h2>
+                <h2 className="title is-2 has-text-warning">Studio 0912 Tresses</h2>
               </a>
               <button className="button navbar-burger">
                 <span />
@@ -93,11 +92,7 @@ class App extends Component {
               <p>Herb unto place had. So said bring <strong>man</strong> living. Fly. Behold over fourth and <strong>bearing</strong> them place creature Greater moving seed, own. Signs. Our, fruitful kind upon firmament replenish morning. A place tree shall spirit female yielding, night. May fruitful. Midst, isn&#39;t.</p>
             </div>
           </Section>
-          <Parallax
-            blur={0}
-            bgImage={require(`./Parallax/images/794064-${this.state.pictureSize}.jpeg`)}
-            className="parallax"
-          />
+          <hr />
           {/*Team*/}
           <Section
             sectionId="team"
@@ -135,7 +130,7 @@ class App extends Component {
               </Member>
               <Member
                 name="Virjasha"
-                title="Stylist"
+                title="Hairstylist Assistant"
                 imgName="virjasha.jpg"
                 bioGist={`I am Virjasha Caldwell and I love to do hair. As a child you could find me styling anyone from my baby dolls to my sisters and friends`}
               >
@@ -145,11 +140,7 @@ class App extends Component {
               </Member>
             </div>
           </Section>
-          <Parallax
-            blur={0}
-            bgImage={require(`./Parallax/images/1006202-${this.state.pictureSize}.jpeg`)}
-            className="parallax"
-          />
+          <hr />
           {/*Services*/}
           <Section
             sectionId="services"
@@ -157,6 +148,7 @@ class App extends Component {
           >
 
           </Section>
+          <hr />
           {/*Contact Us*/}
           <Section
             sectionId="contact-us"
@@ -166,6 +158,7 @@ class App extends Component {
               <Hours />
             </div>
           </Section>
+          <hr />
           {/* Testimonies */}
           <Section
             sectionId="testimonies"
@@ -173,6 +166,8 @@ class App extends Component {
           >
             <Reviews />
           </Section>
+          <hr />
+          {/* Products */}
           <Section
             sectionTitle="Products We Use"
           >
