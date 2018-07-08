@@ -24,23 +24,10 @@ class App extends Component {
       }
     }
     this.state = { pictureSize: picSize() }
-    this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
   }
 
   componentDidMount() {
     AOS.init();
-    window.addEventListener('resize', this.updateWindowDimensions);
-  }
-
-  updateWindowDimensions() {
-    const width = window.innerWidth;
-    if (width <= 640) {
-      this.setState({ pictureSize: 'sm' });
-    } else if (width <= 1280) {
-      this.setState({ pictureSize: 'md' });
-    } else {
-      this.setState({ pictureSize: 'lg' });
-    }
   }
 
 
