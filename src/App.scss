@@ -1,5 +1,14 @@
 @import "custom";
 
+.is-cursive {
+    font-family: 'Pacifico', cursive;
+}
+
+.columns--accordion {
+    width: 120%;
+    display: flex;
+}
+
 .GoogleMap {
     border: 0; 
     height: auto;

@@ -8,6 +8,7 @@ import { Logos, Logo } from './Logos/Logos';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Reviews from './Reviews/Reviews';
+import { Services, Service } from './Services/Services';
 
 class App extends Component {
 
@@ -133,7 +134,211 @@ class App extends Component {
             sectionId="services"
             sectionTitle="Services"
           >
-
+            <div className="columns">
+              <div className="column">
+                <h2 className="has-text-weight-semibold has-text-centered">Chemical</h2>
+                <Services subtitle="relaxer">
+                  <Service
+                    title="virgin"
+                    price="75"
+                  >Description Goes Here</Service>
+                  <Service
+                    title="touch up"
+                    price="40"
+                  ></Service>
+                </Services>
+                <Services subtitle="treatment">
+                  <Service
+                    title="intense moisture"
+                    price="15"
+                  ></Service>
+                  <Service
+                    title="scalp"
+                    price="22"
+                  ></Service>
+                  <Service
+                    title="reconstructor"
+                    price="22"
+                  ></Service>
+                  <Service
+                    title="steam"
+                    price="22"
+                  ></Service>
+                  <Service
+                    title="olaplex"
+                    price="15"
+                  ></Service>
+                </Services>
+              </div>
+              <div className="column">
+                <h2 className="has-text-weight-semibold has-text-centered">Haircolor</h2>
+                <Services subtitle="permanent">
+                  <Service
+                    title="virgin"
+                    price="75 up"
+                  ></Service>
+                  <Service
+                    title="touch up"
+                    price="55 up"
+                  ></Service>
+                  <Service
+                    title="demi color"
+                    price="35"
+                  ></Service>
+                  <Service
+                    title="lighten"
+                    price="55 up"
+                  ></Service>
+                  <Service
+                    title="glaze/gloss"
+                    price="35"
+                  ></Service>
+                </Services>
+                <Services subtitle="hi light / lo light">
+                  <Service
+                    title="full"
+                    price="90"
+                  ></Service>
+                  <Service
+                    title="half"
+                    price="55"
+                  ></Service>
+                  <Service
+                    title="spot"
+                    price="35"
+                  ></Service>
+                  <Service
+                    title="ombre"
+                    price="90"
+                  ></Service>
+                  <Service
+                    title="balayage"
+                    price="110"
+                  ></Service>
+                  <Service
+                    title="color correction"
+                    price="upon consultation"
+                  ></Service>
+                </Services>
+              </div>
+              <div className="column">
+                <h2 className="has-text-weight-semibold has-text-centered">Styling</h2>
+                <Services>
+                  <Service
+                    title="haircut"
+                    price="70"
+                  ></Service>
+                  <Service
+                    title="blowout"
+                    price="50"
+                  ></Service>
+                  <Service
+                    title="wrap"
+                    price="50"
+                  ></Service>
+                  <Service
+                    title="up do"
+                    price="65 up"
+                  ></Service>
+                  <Service
+                    title="wedding package"
+                    price="upon consultation"
+                  ></Service>
+                </Services>
+              </div>
+              <div className="column">
+                <h2 className="has-text-weight-semibold has-text-centered">Extensions</h2>
+                <Services>
+                  <Service
+                    title="micro linking"
+                    price="upon consultation"
+                  ></Service>
+                  <Service
+                    title="fusion"
+                  ></Service>
+                  <Service
+                    title="tape ins"
+                  ></Service>
+                  <Service
+                    title="braidless microweave"
+                  ></Service>
+                  <Service
+                    title="traditional weaving"
+                    price="250"
+                  ></Service>
+                  <Service
+                    title="minimum leave out"
+                    price="200"
+                  ></Service>
+                  <Service
+                    title="blend"
+                    price="170"
+                  ></Service>
+                  <Service
+                    title="quick weave"
+                    price="85 up"
+                  ></Service>
+                  <Service
+                    title="per track"
+                    price="30"
+                  ></Service>
+                  <Service
+                    title={
+                      <span>
+                        frontal weaving<br />
+                        13x4<br />
+                        13x6<br />
+                        13x2
+                      </span>
+                    }
+                    price="250"
+                  ></Service>
+                  <Service
+                    title={
+                      <span>
+                        lace closure weaving<br />
+                        4x4<br />
+                        5x5
+                      </span>
+                    }
+                    price="200"
+                  ></Service>
+                  <Service
+                    title="360 frontal weaving"
+                    price="250"
+                  ></Service>
+                </Services>
+              </div>
+              <div className="column">
+                <h2 className="has-text-weight-semibold has-text-centered">Natural Hair Community</h2>
+                <Services>
+                  <Service
+                    title="big chop"
+                    price="55 up"
+                  ></Service>
+                  <Service
+                    title="blowout"
+                    price="50 up"
+                  ></Service>
+                  <Service
+                    title="rod set"
+                    price="65 up"
+                  ></Service>
+                  <Service
+                    title="flexi rodset"
+                    price="65 up"
+                  ></Service>
+                  <Service
+                    title="two strand flat twist"
+                    price="65 up"
+                  ></Service>
+                  <Service
+                    title="two strand twist"
+                    price="45 up"
+                  ></Service>
+                </Services>
+              </div>
+            </div>
           </Section>
           <hr />
           {/*Contact Us*/}
