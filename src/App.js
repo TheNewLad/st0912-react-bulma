@@ -38,7 +38,7 @@ class App extends Component {
       <div className="App">
         <div>
           {/*Nav*/}
-          <nav className="level navbar is-primary is-hidden-touch navbar--padding">
+          <nav className="level navbar is-primary is-hidden-touch navbar--custom">
             <p className="level-item has-text-centered">
               <a className="has-text-white" href="#about">About Us</a>
             </p>
@@ -62,14 +62,14 @@ class App extends Component {
               <a className="has-text-white" href="#products">Products We Use</a>
             </p>
             <div className="level-item">
-              <a href="https://www.facebook.com/studio0912tresses/" className="icon has-text-white">
-                <i className="fab fa-facebook-square"></i>
+              <a href="https://www.facebook.com/studio0912tresses/" className="icon is-medium has-text-white">
+                <i className="fab fa-lg fa-facebook-square"></i>
               </a>
-              <a href="https://www.instagram.com/organizedchaotichair" className="icon has-text-white">
-                <i className="fab fa-instagram"></i>
+              <a href="https://www.instagram.com/organizedchaotichair" className="icon is-medium has-text-white">
+                <i className="fab fa-lg fa-instagram"></i>
               </a>
-              <a className="icon has-text-white">
-                <i className="fab fa-youtube-square"></i>
+              <a className="icon is-medium has-text-white">
+                <i className="fab fa-lg fa-youtube-square"></i>
               </a>
             </div>
           </nav>
@@ -83,7 +83,7 @@ class App extends Component {
               <p>There is nothing more satisfying than a fabulous hairdo. At Studio 0912 Tresses we do high quality full hair care from natural or highly textured hair, always with finest products for your hair in mind. Our professional staff are expert hairstylist, colorist, and customer satisfaction is our optimum goal. You are unique in everything you do, Studio 0912 Tresses can bring out your shine, enhance your look, all with love!</p>
             </div>
           </Section>
-          <hr />
+          <div className="is-divider is-divider--custom" />
           {/*Team*/}
           <Section
             sectionId="team"
@@ -131,15 +131,16 @@ class App extends Component {
               </Member>
             </div>
           </Section>
-          <hr />
+          <div className="is-divider is-divider--custom" />
           {/*Services*/}
           <Section
             sectionId="services"
             sectionTitle="Services"
+            sectionSubtitle={<p>Consultation is <span className="has-text-weight-bold">FREE</span></p>}
           >
             <div className="columns">
               <div className="column">
-                <h2 className="has-text-weight-semibold has-text-centered">Chemical</h2>
+                <h2 className="has-text-weight-semibold has-text-centered service-type">Chemical</h2>
                 <Services subtitle="relaxer">
                   <Service
                     title="virgin"
@@ -174,7 +175,7 @@ class App extends Component {
                 </Services>
               </div>
               <div className="column">
-                <h2 className="has-text-weight-semibold has-text-centered">Haircolor</h2>
+                <h2 className="has-text-weight-semibold has-text-centered service-type">Haircolor</h2>
                 <Services subtitle="permanent">
                   <Service
                     title="virgin"
@@ -225,7 +226,7 @@ class App extends Component {
                 </Services>
               </div>
               <div className="column">
-                <h2 className="has-text-weight-semibold has-text-centered">Styling</h2>
+                <h2 className="has-text-weight-semibold has-text-centered service-type">Styling</h2>
                 <Services>
                   <Service
                     title="haircut"
@@ -250,7 +251,7 @@ class App extends Component {
                 </Services>
               </div>
               <div className="column">
-                <h2 className="has-text-weight-semibold has-text-centered">Extensions</h2>
+                <h2 className="has-text-weight-semibold has-text-centered service-type">Extensions</h2>
                 <Services>
                   <Service
                     title="micro linking"
@@ -313,7 +314,7 @@ class App extends Component {
                 </Services>
               </div>
               <div className="column">
-                <h2 className="has-text-weight-semibold has-text-centered">Natural Hair Community</h2>
+                <h2 className="has-text-weight-semibold has-text-centered service-type">Natural Hair Community</h2>
                 <Services>
                   <Service
                     title="big chop"
@@ -343,7 +344,7 @@ class App extends Component {
               </div>
             </div>
           </Section>
-          <hr />
+          <div className="is-divider is-divider--custom" />
           {/*Contact Us*/}
           <Section
             sectionId="contact-us"
@@ -353,7 +354,7 @@ class App extends Component {
               <Hours />
             </div>
           </Section>
-          <hr />
+          <div className="is-divider is-divider--custom" />
           {/* Testimonies */}
           <Section
             sectionId="testimonies"
@@ -361,7 +362,7 @@ class App extends Component {
           >
             <Reviews />
           </Section>
-          <hr />
+          <div className="is-divider is-divider--custom" />
           {/* Products */}
           <Section
             sectionId="products"
@@ -398,38 +399,38 @@ class App extends Component {
               />
             </Logos>
           </Section>
+          <div className="is-divider is-divider--custom" />
           {/* Footer Begin */}
           <footer className="footer">
             <div className="columns">
               <div className="column is-3">
                 <div className="content">
-                  <p className="has-text-weight-semibold">Studio 0912 Tresses</p>
-                  <div>
-                    <a href="https://www.instagram.com/organizedchaotichair/" alt="Instagram"><i className="fab fa-instagram fa-2x" /></a>
-                    <a href="https://www.facebook.com/studio0912tresses/"><i className="fab fa-facebook-square fa-2x" /></a>
+                  <p className="has-text-weight-semibold has-text-centered-mobile">Follow Us on Social Media</p>
+                  <div className="navbar-item has-text-centered">
+                    <a href="https://www.facebook.com/studio0912tresses/" className="icon is-large">
+                      <i className="fab fa-2x fa-facebook-square"></i>
+                    </a>
+                    <a href="https://www.instagram.com/organizedchaotichair" className="icon is-large">
+                      <i className="fab fa-2x fa-instagram"></i>
+                    </a>
+                    <a className="icon is-large">
+                      <i className="fab fa-2x fa-youtube-square"></i>
+                    </a>
                   </div>
                 </div>
               </div>
               <div className="column">
                 <div className="columns is-mobile">
                   <div className="column has-text-centered"><a href="/">Home</a></div>
-                  <div className="column has-text-centered"><a href="/about">About</a></div>
+                  <div className="column has-text-centered"><a href="#about">About</a></div>
                 </div>
                 <div className="columns is-mobile">
-                  <div className="column has-text-centered"><a href="/book-now">Book Now</a></div>
-                  <div className="column has-text-centered"><a href="/contact-us">Contact Us</a></div>
+                  <div className="column has-text-centered"><a href="#contact-us">Contact Us</a></div>
+                  <div className="column has-text-centered"><a href="#services">Services</a></div>
                 </div>
                 <div className="columns is-mobile">
-                  <div className="column has-text-centered"><a href="/faq">FAQ</a></div>
-                  <div className="column has-text-centered"><a href="/gallery">Gallery</a></div>
-                </div>
-                <div className="columns is-mobile">
-                  <div className="column has-text-centered"><a href="/hours">Hours</a></div>
-                  <div className="column has-text-centered"><a href="/opportunities">Opportunities</a></div>
-                </div>
-                <div className="columns is-mobile">
-                  <div className="column has-text-centered"><a href="/services">Services</a></div>
-                  <div className="column has-text-centered"><a href="/team">Team</a></div>
+                  <div className="column has-text-centered"><a href="#contact-us">Hours</a></div>
+                  <div className="column has-text-centered"><a href="#team">Team</a></div>
                 </div>
               </div>
               <div className="column is-5" id="footer__address">

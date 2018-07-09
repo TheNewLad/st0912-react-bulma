@@ -8,18 +8,42 @@
     max-height: 200px;
 }
 
-.navbar--padding {
+.navbar--custom {
     padding-top: 1rem;
     padding-bottom: 1rem;
+    margin-bottom: 0 !important;
 }
 
 .navbar-burger--custom {
     align-self: center;
+    background-color: $primary;
+    border-width: 0;
+    color: $white;
+}
+
+.section--custom {
+    background-color: $primary;
+}
+
+.title--custom, .service-type {
+    color: $secondary;
+}
+
+.is-divider[data-content]::after, .is-divider-vertical[data-content]::after {
+    background-color: $primary;
+}
+
+.is-divider--custom {
+    margin: 0
 }
 
 .columns--accordion {
     width: 120%;
     display: flex;
+}
+
+.columns--logo {
+    background-color: $white;
 }
 
 .GoogleMap {

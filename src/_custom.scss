@@ -4,7 +4,20 @@
 $yellow: #ffde26;
 $red: #f23a37;
 
+$gold: #FFD700;
+
 $primary: $black-bis;
+
+$secondary: $gold;
+$secondary-invert: findColorInvert($secondary);
+
+$footer-background-color: $primary;
+
+@import "../node_modules/bulma/sass/utilities/derived-variables";
+$addColors: (
+    "secondary":($secondary, $secondary-invert)
+);
+$colors: map-merge($colors, $addColors);
 
 @import "../node_modules/bulma/bulma";
 @import "../node_modules/bulma-accordion/src/sass/index";
