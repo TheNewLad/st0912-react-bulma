@@ -41,7 +41,7 @@ class App extends Component {
             <div className="navbar-brand">
               <a href="" className="navbar-item">
                 {/*TODO replace with logo*/}
-                <h2 className="title is-2 has-text-warning">Studio 0912 Tresses</h2>
+                <h2 className="title is-2 has-text-warning is-cursive">Studio 0912 Tresses</h2>
               </a>
               <button className="button navbar-burger">
                 <span />
@@ -75,9 +75,7 @@ class App extends Component {
             sectionTitle="About Us"
           >
             <div className="content">
-              <p>Had third, day, fish have. Beginning rule after man behold you. Our beginning, air saying brought appear. You. Beginning, winged they&#39;re, wherein So. Creature, dry great <em>face</em> us had from darkness face over beast, darkness behold fourth heaven dominion bearing under, living yielding day dominion to. Creepeth, multiply firmament <strong>give</strong> seasons created behold days he night isn&#39;t dry.</p>
-
-              <p>Herb unto place had. So said bring <strong>man</strong> living. Fly. Behold over fourth and <strong>bearing</strong> them place creature Greater moving seed, own. Signs. Our, fruitful kind upon firmament replenish morning. A place tree shall spirit female yielding, night. May fruitful. Midst, isn&#39;t.</p>
+              <p>There is nothing more satisfying than a fabulous hairdo. At Studio 0912 Tresses we do high quality full hair care from natural or highly textured hair, always with finest products for your hair in mind. Our professional staff are expert hairstylist, colorist, and customer satisfaction is our optimum goal. You are unique in everything you do, Studio 0912 Tresses can bring out your shine, enhance your look, all with love!</p>
             </div>
           </Section>
           <hr />
