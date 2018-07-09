@@ -4,6 +4,19 @@
     font-family: 'Pacifico', cursive;
 }
 
+.salon-logo {
+    max-height: 200px;
+}
+
+.navbar--padding {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.navbar-burger--custom {
+    align-self: center;
+}
+
 .columns--accordion {
     width: 120%;
     display: flex;

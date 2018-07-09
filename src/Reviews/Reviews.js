@@ -10,20 +10,20 @@ const Reviews = () => {
         reviewerImg="https://s3-media3.fl.yelpcdn.com/photo/i-aGdKKkshOkm9yn2rfPZQ/o.jpg"
         review="I tried this place today since my stylist couldn't fit me in. I looked it up on yelp and selected this one out of the other because I really liked a style..."
         reviewUrl="https://www.yelp.com/biz/studio-0912-tresses-montclair?hrid=xOkBh7L9z8tV8k-q26i8RA&adjust_creative=J8ZjumpRAFqatUlxtX2L-w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=J8ZjumpRAFqatUlxtX2L-w"
-        rating="5"
+        rating={5}
       />
       <Review
         reviewer="Tarajia S."
         review="Amazing , I started coming here in the beginning of the year, I won't go anywhere else! Shamila provides great service, she brought my hair back to life and..."
         reviewUrl="https://www.yelp.com/biz/studio-0912-tresses-montclair?hrid=TUftVjmoTGCUoFR71vyazg&adjust_creative=J8ZjumpRAFqatUlxtX2L-w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=J8ZjumpRAFqatUlxtX2L-w"
-        rating="5"
+        rating={5}
       />
       <Review
         reviewer="SuncuziShine D."
         reviewerImg="https://s3-media2.fl.yelpcdn.com/photo/3rln0WT1EjwAR0hUoN3GVw/o.jpg"
         review="Sha provides the ultimate salon experience !! With years of experience she's perfected her craft to give her clients the highest quality of service. From..."
         reviewUrl="https://www.yelp.com/biz/studio-0912-tresses-montclair?hrid=KaSVFg-cffn9PIZYpQiHfQ&adjust_creative=J8ZjumpRAFqatUlxtX2L-w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=J8ZjumpRAFqatUlxtX2L-w"
-        rating="5"
+        rating={5}
       />
     </div>
   );

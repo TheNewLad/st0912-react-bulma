@@ -9,6 +9,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Reviews from './Reviews/Reviews';
 import { Services, Service } from './Services/Services';
+import MobileNav from './MobileNav/MobileNav';
 
 class App extends Component {
 
@@ -37,38 +38,42 @@ class App extends Component {
       <div className="App">
         <div>
           {/*Nav*/}
-          <nav className="navbar is-primary">{/*is-fixed-top*/}
-            <div className="navbar-brand">
-              <a href="" className="navbar-item">
-                {/*TODO replace with logo*/}
-                <h2 className="title is-2 has-text-warning is-cursive">Studio 0912 Tresses</h2>
+          <nav className="level navbar is-primary is-hidden-touch navbar--padding">
+            <p className="level-item has-text-centered">
+              <a className="has-text-white" href="#about">About Us</a>
+            </p>
+            <p className="level-item has-text-centered">
+              <a className="has-text-white" href="#team">Team</a>
+            </p>
+            <p className="level-item has-text-centered">
+              <a className="has-text-white" href="#services">Services</a>
+            </p>
+            <p className="level-item has-text-centered">
+              <img
+                src={require('./Logos/images/st0912-logo.svg')}
+                alt=""
+                className="salon-logo"
+              />
+            </p>
+            <p className="level-item has-text-centered">
+              <a className="has-text-white" href="#contact-us">Contact Us</a>
+            </p>
+            <p className="level-item has-text-centered">
+              <a className="has-text-white" href="#products">Products We Use</a>
+            </p>
+            <div className="level-item">
+              <a href="https://www.facebook.com/studio0912tresses/" className="icon has-text-white">
+                <i className="fab fa-facebook-square"></i>
               </a>
-              <button className="button navbar-burger">
-                <span />
-                <span />
-                <span />
-              </button>
-            </div>
-            <div className="navbar-menu">
-              <div className="navbar-end">
-                <a href="#about" className="navbar-item">About Us</a>
-                <a href="#team" className="navbar-item">Team</a>
-                <a href="#services" className="navbar-item">Services</a>
-                <a href="#contact-us" className="navbar-item">Contact Us</a>
-                <div className="navbar-item">
-                  <a href="https://www.facebook.com/studio0912tresses/" className="icon">
-                    <i className="fab fa-facebook-square"></i>
-                  </a>
-                  <a href="https://www.instagram.com/organizedchaotichair" className="icon">
-                    <i className="fab fa-instagram"></i>
-                  </a>
-                  <a className="icon">
-                    <i className="fab fa-youtube-square"></i>
-                  </a>
-                </div>
-              </div>
+              <a href="https://www.instagram.com/organizedchaotichair" className="icon has-text-white">
+                <i className="fab fa-instagram"></i>
+              </a>
+              <a className="icon has-text-white">
+                <i className="fab fa-youtube-square"></i>
+              </a>
             </div>
           </nav>
+          <MobileNav />
           {/*About*/}
           <Section
             sectionId="about"
@@ -359,6 +364,7 @@ class App extends Component {
           <hr />
           {/* Products */}
           <Section
+            sectionId="products"
             sectionTitle="Products We Use"
           >
             <Logos>
