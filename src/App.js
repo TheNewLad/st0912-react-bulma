@@ -185,6 +185,8 @@ class App extends Component {
                     title="touch up"
                     price="55 up"
                   ></Service>
+                </Services>
+                <Services>
                   <Service
                     title="demi color"
                     price="35"
@@ -197,6 +199,26 @@ class App extends Component {
                     title="glaze/gloss"
                     price="35"
                   ></Service>
+                <Service
+                  title="ombre"
+                  price="90"
+                ></Service>
+                <Service
+                  title="balayage"
+                  price="110"
+                ></Service>
+                <Service
+                  title="color correction"
+                  price="upon consultation"
+                ></Service>
+                <Service
+                  title="single process"
+                  price="upon consultation"
+                ></Service>
+                <Service
+                  title="double process"
+                  price="upon consultation"
+                ></Service>
                 </Services>
                 <Services subtitle="hi light / lo light">
                   <Service
@@ -210,18 +232,6 @@ class App extends Component {
                   <Service
                     title="spot"
                     price="35"
-                  ></Service>
-                  <Service
-                    title="ombre"
-                    price="90"
-                  ></Service>
-                  <Service
-                    title="balayage"
-                    price="110"
-                  ></Service>
-                  <Service
-                    title="color correction"
-                    price="upon consultation"
                   ></Service>
                 </Services>
               </div>
