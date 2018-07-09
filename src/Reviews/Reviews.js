@@ -32,7 +32,7 @@ const Reviews = () => {
 const Review = (props) => {
   return (
     <div className="column">
-      <div className="card">
+      <div className="card" data-aos="flip-down">
         <div className="card-content">
           <div className="media">
             <div className="media-left">
