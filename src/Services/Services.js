@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 export const Services = (props) => {
     return (
         <section className="accordions">
-            <div className="is-divider" data-content={props.subtitle} />
+            <div className="is-divider is-divider--section-separator" data-content={props.subtitle} />
             {props.children}
         </section>
     );

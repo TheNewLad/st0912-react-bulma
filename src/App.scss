@@ -37,8 +37,15 @@
     background-color: $primary;
 }
 
-.is-divider--custom {
-    margin: 0
+.is-divider {
+    &--custom {
+        margin: 0;
+        border-top: 0.1rem solid $red;
+        border-bottom: 0.1rem solid $red;
+    }
+    &--section-separator {
+        border-top-color: $red;
+    }
 }
 
 .columns--accordion {
