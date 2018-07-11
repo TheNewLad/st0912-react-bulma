@@ -445,8 +445,8 @@ class App extends Component {
               </div>
               <div className="column is-5" id="footer__address">
                 <div className="content">
-                  <p className="has-text-weight-semibold">
-                    209 Glenridge Ave <br /> Montclair, NJ 07042
+                  <p className="has-text-weight-semibold has-text-centered-mobile">
+                    209 Glenridge Ave <br /> Montclair, NJ 07042 <br /> <a href="tel:+19736550125">(973) 655-0125</a>
           </p>
                 </div>
                 <GoogleMap />
