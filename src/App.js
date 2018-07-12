@@ -211,10 +211,6 @@ class App extends Component {
                   price="upon consultation"
                 ></Service>
                 <Service
-                  title="single process"
-                  price="upon consultation"
-                ></Service>
-                <Service
                   title="double process"
                   price="upon consultation"
                 ></Service>
@@ -348,6 +344,10 @@ class App extends Component {
                   <Service
                     title="two strand twist"
                     price="45 up"
+                  ></Service>
+                  <Service
+                    title="deva cut"
+                    price="45"
                   ></Service>
                 </Services>
               </div>
