@@ -112,6 +112,8 @@ class App extends Component {
                 name="William"
                 title="Stylist"
                 imgName="william.jpg"
+                facebook="https://www.facebook.com/Theglamfather-Mua-319172845192075/"
+                instagram="https://www.instagram.com/theglamfather/"
               >
                 <p>
                   William is an accomplished hairstylist and makeup artist with twelve years af experience in media makeup: fashion, video and print. At an early age, being attracted to art, William enrolled at the Concord School of Hair Design. Additional training includes: Goldwell Mid-Atlantic, Redken, Mizani USA and MAC Cosmetics. He interned under New York City photographers, where he began his career began with test shooting for modeling agencies IMAGES and MC<sup>2</sup>, which lead to work with Sean John, "W" magazine, Sista to Sista magazine, Smooth Magazine, and reality television for VH1's "Love and Hip Hop" where he has been the key artist since its inception. In addition to being a licensed celebrity stylist for ten years, he also teaches a class in theatrical beauty to the students of the Dance department for Brooklyn's Long Island University and lectures a class in industry development and beauty for the Fashion Institute of Technology. William is sought for his creativity and professionalism. Past employers were very happy with his performance and he is viewed as being detail-oriented and self motivated. William brings a wealth of experiences, training and skill that will benefit any projoct. References will be furnished upon request.

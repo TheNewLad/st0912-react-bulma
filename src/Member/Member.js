@@ -44,11 +44,22 @@ class Member extends Component {
                         </figure>
                     </div>
                     <div className="card-content">
-                        <p className="title is-4">{this.props.name}</p>
+                        <p className="title is-4">{this.props.name}
+                            {this.props.facebook && <a href={this.props.facebook} className="icon is-medium">
+                                <i className="fab fa-facebook-square"></i>
+                            </a>}
+                            {this.props.instagram && <a href={this.props.instagram} className="icon">
+                                <i className="fab fa-instagram"></i>
+                            </a>}
+                        </p>
                         <p className="subtitle is-6 is-italic">{this.props.title}</p>
                         <div className="content">
-                            {this.state.readMore ? this.props.children : voca.truncate(this.props.bioGist, 100)}
-                            <a className="" onClick={this.toggleBio}><br/>{this.state.readMore ? 'Read Less' : 'Read More'}</a>
+                            <div className={`${this.props.name}-bio`}>
+                                {this.props.children}
+                            </div>
+                            <a className=""
+                                onClick={this.toggleBio}>
+                                <br />{this.state.readMore ? 'Read Less' : 'Read More'}</a>
                         </div>
                     </div>
                 </div>
