@@ -1,18 +1,39 @@
 import React, { Component } from 'react';
 import voca from 'voca';
+import shave from 'shave';
 
 class Member extends Component {
     constructor(props) {
         super(props);
-        this.state = { readMore: false };
+        this.state = { 
+            readMore: false,
+            height: 75 
+        };
 
         this.toggleBio = this.toggleBio.bind(this);
+        this.shaveMember = this.shaveMember.bind(this);
+    }
+
+    componentDidMount() {
+        this.shaveMember();
     }
 
     toggleBio() {
         this.setState(prevState =>
-            ({ readMore: !prevState.readMore })
-        )
+            ({ 
+                readMore: !prevState.readMore,
+                height: !prevState.readMore ? 999999 : 75
+            })
+        );
+        this.shaveMember(!this.state.readMore); //readMore isn't updated when this is run
+        
+    }
+
+    shaveMember(readMore = false) {
+        const height = readMore ? 999999 : 75;
+        const name = this.props.name;
+        console.log(name, height);
+        shave(`.${name}-bio`, height);
     }
 
     render() {
