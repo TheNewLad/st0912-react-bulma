@@ -48,7 +48,7 @@ class Member extends Component {
                             {this.props.facebook && <a href={this.props.facebook} className="icon is-medium">
                                 <i className="fab fa-facebook-square"></i>
                             </a>}
-                            {this.props.instagram && <a href={this.props.instagram} className="icon">
+                            {this.props.instagram && <a href={this.props.instagram} className="icon is-medium">
                                 <i className="fab fa-instagram"></i>
                             </a>}
                         </p>
