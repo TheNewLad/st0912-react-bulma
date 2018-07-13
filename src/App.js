@@ -94,6 +94,7 @@ class App extends Component {
                 name="Shamila"
                 title="Stylist"
                 imgName="shamila.jpg"
+                instagram="https://www.instagram.com/organizedchaotichair"
               >
                 <p>
                   Shamila McEachin, affectiontely known as "Sha", is a native of Newark, New Jersey and has been a professional hair stylist for over 7 years. Shamila began her career at the age of 24 while working in a neighborhood salon, where she received hands on training and learned the basics of shampooing, styling, and proper hair treatment. Shamila quickly develped a passion for hair design, and decided to pursue professional training at Concord Beauty School in Bloomfield, New Jersey. Focusing on continued education, which is a must in hair industry, Shamila was also recently trained at the famous L 'oreal Academy, Devachan in New York, also Vidal Sassoon Academy, Los Angeles, CA and New York.
