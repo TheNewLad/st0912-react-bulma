@@ -145,7 +145,7 @@ class App extends Component {
                   <Service
                     title="virgin"
                     price="75"
-                  >Description Goes Here</Service>
+                  ></Service>
                   <Service
                     title="touch up"
                     price="40"

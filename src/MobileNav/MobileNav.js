@@ -15,7 +15,7 @@ class MobileNav extends Component {
 
   render() {
     return (
-      <nav className="navbar is-hidden-desktop is-primary">{/*is-fixed-top*/}
+      <nav className="navbar is-hidden-desktop is-primary">
         <div className="navbar-brand navbar-brand--mobile">
           <img src={require('../Logos/images/st0912-logo.svg')} alt="" className="navbar-item salon-logo" width="200" />
         </div>
