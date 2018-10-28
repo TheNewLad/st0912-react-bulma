@@ -121,6 +121,16 @@ class App extends Component {
                   </p>
               </Member>
               <Member
+                name="Haj"
+                title="Stylist"
+                imgName="haj.jpg"
+              >
+                <p>As a professional hairstylist, it is my job, to make every single one of my clients feel good about themselves.  I have trained with Robert Fiance Beauty School in Plainfield,Nj and have had 5 years experience as a stylist. </p>                
+                <p>I use Design Essentials product line and SoColor Matrix for color, with pride. I only use products that are eco-friendly, not tested on animals and hypoallergenic. </p>
+                <p>My artistry is displayed in the beauty created with each client. Specializing  in Natural Haircare, Silk Presses and Extension Installation ; I am confident in providing the best service, and guidance,  in selecting the most flattering and manageable hairstyles, to fit each persons needs. </p>
+                <p>I am aware of, skilled in, and sensitive to,  the challenges of traumatic hair hair loss.  Providing  professional solutions to make clients feel as beautiful as they should is my priority.  In addition, I want to make your time with me a pleasant and relaxing break in your day.</p>
+              </Member>
+              <Member
                 name="Virjasha"
                 title="Hairstylist Assistant"
                 imgName="virjasha.jpg"
@@ -199,22 +209,22 @@ class App extends Component {
                     title="glaze/gloss"
                     price="35"
                   ></Service>
-                <Service
-                  title="ombre"
-                  price="90"
-                ></Service>
-                <Service
-                  title="balayage"
-                  price="110"
-                ></Service>
-                <Service
-                  title="color correction"
-                  price="upon consultation"
-                ></Service>
-                <Service
-                  title="double process"
-                  price="upon consultation"
-                ></Service>
+                  <Service
+                    title="ombre"
+                    price="90"
+                  ></Service>
+                  <Service
+                    title="balayage"
+                    price="110"
+                  ></Service>
+                  <Service
+                    title="color correction"
+                    price="upon consultation"
+                  ></Service>
+                  <Service
+                    title="double process"
+                    price="upon consultation"
+                  ></Service>
                 </Services>
                 <Services subtitle="hi light / lo light">
                   <Service
@@ -447,7 +457,7 @@ class App extends Component {
                 <div className="content">
                   <p className="has-text-weight-semibold has-text-centered-mobile">
                     209 Glenridge Ave <br /> Montclair, NJ 07042 <br /> <a href="tel:+19736550125">(973) 655-0125</a>
-          </p>
+                  </p>
                 </div>
                 <GoogleMap />
               </div>
