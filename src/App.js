@@ -74,6 +74,14 @@ class App extends Component {
             </div>
           </nav>
           <MobileNav />
+          <Section
+            sectionId="news"
+            sectionTitle="News"
+          >
+            <div className="content">
+              <img src={require('./assets/news-flyer.jpg')} className="news-flyer" alt=""/>
+            </div>
+          </Section>
           {/*About*/}
           <Section
             sectionId="about"
