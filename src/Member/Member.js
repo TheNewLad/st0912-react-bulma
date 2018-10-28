@@ -30,7 +30,6 @@ class Member extends Component {
     shaveMember() {
         const height = this.state.readMore ? 999999 : 75;
         const name = this.props.name;
-        console.log(name, height);
         shave(`.${name}-bio`, height);
     }
 
