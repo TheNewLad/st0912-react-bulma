@@ -169,33 +169,25 @@ class App extends Component {
                 <Services subtitle="relaxer">
                   <Service
                     title="virgin"
-                    price="75"
+                    price="90"
                   ></Service>
                   <Service
                     title="touch up"
-                    price="40"
+                    price="60"
                   ></Service>
                 </Services>
                 <Services subtitle="treatment">
                   <Service
                     title="intense moisture"
-                    price="15"
+                    price="20"
                   ></Service>
                   <Service
                     title="scalp"
-                    price="22"
+                    price="25"
                   ></Service>
                   <Service
                     title="reconstructor"
-                    price="22"
-                  ></Service>
-                  <Service
-                    title="steam"
-                    price="22"
-                  ></Service>
-                  <Service
-                    title="olaplex"
-                    price="15"
+                    price="25"
                   ></Service>
                 </Services>
               </div>
@@ -226,11 +218,11 @@ class App extends Component {
                   ></Service>
                   <Service
                     title="ombre"
-                    price="90"
+                    price="125"
                   ></Service>
                   <Service
                     title="balayage"
-                    price="110"
+                    price="125"
                   ></Service>
                   <Service
                     title="color correction"
@@ -244,15 +236,15 @@ class App extends Component {
                 <Services subtitle="hi light / lo light">
                   <Service
                     title="full"
-                    price="90"
+                    price="125"
                   ></Service>
                   <Service
                     title="half"
-                    price="55"
+                    price="75"
                   ></Service>
                   <Service
                     title="spot"
-                    price="35"
+                    price="45"
                   ></Service>
                 </Services>
               </div>
@@ -261,11 +253,11 @@ class App extends Component {
                 <Services>
                   <Service
                     title="haircut"
-                    price="70"
+                    price="85"
                   ></Service>
                   <Service
                     title="blowout"
-                    price="50"
+                    price="55"
                   ></Service>
                   <Service
                     title="wrap"
@@ -273,7 +265,7 @@ class App extends Component {
                   ></Service>
                   <Service
                     title="up do"
-                    price="65 up"
+                    price="75 up"
                   ></Service>
                   <Service
                     title="wedding package"
@@ -303,19 +295,19 @@ class App extends Component {
                   ></Service>
                   <Service
                     title="minimum leave out"
-                    price="200"
+                    price="250"
                   ></Service>
                   <Service
                     title="blend"
-                    price="170"
+                    price="190"
                   ></Service>
                   <Service
                     title="quick weave"
-                    price="85 up"
+                    price="100 up"
                   ></Service>
                   <Service
                     title="per track"
-                    price="30"
+                    price="40"
                   ></Service>
                   <Service
                     title={
@@ -336,7 +328,7 @@ class App extends Component {
                         5x5
                       </span>
                     }
-                    price="200"
+                    price="250"
                   ></Service>
                   <Service
                     title="360 frontal weaving"
@@ -349,31 +341,27 @@ class App extends Component {
                 <Services>
                   <Service
                     title="big chop"
-                    price="55 up"
+                    price="85 up"
                   ></Service>
                   <Service
-                    title="blowout"
-                    price="50 up"
+                    title="crochet"
+                    price="180"
                   ></Service>
                   <Service
                     title="rod set"
-                    price="65 up"
-                  ></Service>
-                  <Service
-                    title="flexi rodset"
-                    price="65 up"
+                    price="75 up"
                   ></Service>
                   <Service
                     title="two strand flat twist"
-                    price="65 up"
+                    price="75 up"
                   ></Service>
                   <Service
                     title="two strand twist"
-                    price="45 up"
+                    price="60 up"
                   ></Service>
                   <Service
                     title="deva cut"
-                    price="45"
+                    price="55"
                   ></Service>
                 </Services>
               </div>
