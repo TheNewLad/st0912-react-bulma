@@ -145,15 +145,6 @@ class App extends Component {
                   {" "}
                 <p>I am aware of, skilled in, and sensitive to,  the challenges of traumatic hair hair loss.  Providing  professional solutions to make clients feel as beautiful as they should is my priority.  In addition, I want to make your time with me a pleasant and relaxing break in your day.</p>
               </Member>
-              <Member
-                name="Virjasha"
-                title="Hairstylist Assistant"
-                imgName="virjasha.jpg"
-              >
-                <p>
-                  I am Virjasha Caldwell and I love to do hair. As a child you could find me styling anyone from my baby dolls to my sisters and friends. Today, you could find me styling and caring for hair in the salon. So as of now being in a hair salon brings out my talent more, as an upcoming stylist. Being inspired by my parents being a hairstylist and barber has given me the vision of being like them or better, owning my own business, having a large clientele, and doing phenomenal work. I love to express my artistry and talent through hair.
-                  </p>
-              </Member>
             </div>
           </Section>
           <div className="is-divider is-divider--custom" />
