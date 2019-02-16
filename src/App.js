@@ -144,7 +144,7 @@ class App extends Component {
           <Section
             sectionId="services"
             sectionTitle="Services"
-            sectionSubtitle={<p>Consultation is <span className="has-text-weight-bold">FREE</span></p>}
+            sectionSubtitle={<p>Consultation is <span className="has-text-weight-bold">FREE</span><br/>prices subject to change</p>}
           >
             <div className="columns">
               <div className="column">
