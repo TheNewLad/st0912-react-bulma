@@ -12,8 +12,8 @@ const hours = {
         close: null,
     },
     2: {
-        open: null,
-        close: null,
+        open: '9AM',
+        close: '5PM',
     },
     3: {
         open: '9AM',
@@ -29,7 +29,7 @@ const hours = {
     },
     6: {
         open: '8AM',
-        close: '4PM',
+        close: '6:30PM',
     },
 };
 const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
